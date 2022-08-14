@@ -61,12 +61,22 @@ body{
     gap: 1.5rem;
 }
 
-.redes a i{
+.redes .ruta i{
     font-size: 1.45rem;
     transition: all .2s ease-in;
 }
 
-.redes a i:hover{
+.redes .ruta i:hover{
+    font-size: 1.6rem;
+    color: rgba(161, 148, 6, 0.793);
+}
+ 
+ .direct i{
+    font-size: 1.45rem;
+    transition: all .2s ease-in;
+}
+
+ /*.redes */.direct i:hover{
     font-size: 1.6rem;
     color: rgba(161, 148, 6, 0.793);
 }
