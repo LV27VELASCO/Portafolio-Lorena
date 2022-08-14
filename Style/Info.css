@@ -1,0 +1,9 @@
+.info{
+    background:linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.712)),
+     url('../assends/img/live-music.jpg');
+     height: 750px;
+     width: 100%;
+     background-size: cover;
+     padding: 10px;
+}
+
