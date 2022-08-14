@@ -184,6 +184,12 @@
 
 @media screen and (max-width:768px) {
 
+
+    .section_cargando{
+        width: 20%;}
+
+
+
     .front_page{
         width: 80%;
         display: grid;
@@ -237,6 +243,8 @@
         font-size: 1.8rem;
         color: white;
     }
+
+
 
 }
 
