@@ -48,11 +48,27 @@ body{
 }
 
 .icon{
-    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    position: relative;
+    padding-right: 14px;
+}
+
+.icon>h3{
+    font-size: 1.45rem;
+    font-family: var(---Monoton);
+    color: rgb(161, 159, 159);
+}
+
+.icon>i{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 12px;
+    left:7px;
+    color: rgb(67, 56, 17);
+    z-index: -1;
 }
 
 .redes{

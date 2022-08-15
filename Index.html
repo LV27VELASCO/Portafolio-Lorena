@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Style/Header.css">
-    <link rel="stylesheet" href="./Style/Load_top.css">
-    <link rel="stylesheet" href="./Style/Info.css">
+    <link rel="stylesheet" href="./Style/Home.css">
+    <link rel="stylesheet" href="./Style/Galery.css">
+    <link rel="stylesheet" href="./Style/Collaborations.css">
 
     <!---COUNTER-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -24,30 +25,30 @@
 <body>
     <header class="header">
         <div class="header_contain">
-            <a href="" class="icon">
-                <i class='bx bxs-color'></i>
+            <a href="#Home" class="icon">
+                <h3>L</h3><i class='bx bxl-venmo'></i>
             </a>
             <nav class="redes">
-                <a href="https://www.facebook.com/deiret" target="_blank" class="ruta"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.facebook.com/deiret" target="_blank" class="ruta"><i
+                        class='bx bxl-facebook-circle'></i></a>
                 <a href="https://www.instagram.com/lorenavelgram/" class="ruta"><i class='bx bxl-instagram'></i></a>
-                <a href="https://api.whatsapp.com/send?phone=+34 602655616&text=Hola Lorena, me interesa tu trabajo!" class="direct" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
-                <a href="https://www.youtube.com/channel/UC2mm2MbLabY-gpmHbiFI5pg" target="_blank" class="ruta"><i class='bx bxl-youtube'></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+34 602655616&text=Hola Lorena, me interesa tu trabajo!"
+                    class="direct" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.youtube.com/channel/UC2mm2MbLabY-gpmHbiFI5pg" target="_blank" class="ruta"><i
+                        class='bx bxl-youtube'></i></a>
             </nav>
             <nav class="navbar">
-                <a href="#informacion">Home</a>
-                <a href="">Gallery</a>
-                <a href="">Collaborations</a>
-                <a href="">Redes</a>
+                <a href="#Home">Home</a>
+                <a href="#">About me</a>
+                <a href="#Collaborations">Collaborations</a>
+                <a href="#Galery">Gallery</a>
             </nav>
             <div class="menu">
                 <i class='bx bx-dots-vertical-rounded'></i>
             </div>
         </div>
     </header>
-    <article class="portada">
-
-        
-
+    <article class="portada" id="Home">
         <section class="section_cargando">
             <div class="cargando">Cargando...</div>
             <div class="contain_contador">
@@ -55,16 +56,15 @@
             </div>
         </section>
         <section class="front_page">
-            <img src="./assends/img/notes.jpg" alt="notas musicales">
-            <img src="./assends/img/monumento.jpg" alt="estatua">
-            <img src="./assends/img/vida.jpg" alt="renacimiento">
-            <img src="./assends/img/concert.jpg" alt="concierto">
+            <img src="./assends/img/Galery/Loreal3.jpg" alt="L'oreal">
+            <img src="./assends/img/Galery/lorena_espejo.jpg" alt="estatua">
+            <img src="./assends/img/Galery/Loreal.jpg" alt="renacimiento">
+            <img src="./assends/img/Galery/Loreal4.jpg" alt="concierto">
         </section>
 
         <section class="section_title">
             <div class="title">
                 <h1>Lorena Velazco</h1>
-
                 <section class="subtitulo">
                     <h4>MAS INFO</h4>
                     &#x2193;
@@ -72,7 +72,101 @@
             </div>
         </section>
     </article>
-    <div id="informacion" class="info">
+    <article id="Collaborations" class="contain_collaborations">
+        <section class="collaborations">
+            <h2>Collaborations</h2>
+            <div class="total_info">
+            <header class="section_collaborations" id="container_card">
+
+                <!-- CARD -->
+                <div class="info_card">
+                    <div class="card">
+                        <img src="./assends/img/na_de_na.jpg" alt="Na_de_Na">
+                    </div>
+
+                    <!-- INFO CARD-->
+                        <div class="info_item">
+                            <span><i class='bx bx-video-recording'></i>Jul 26, 2022</span>
+                            <h3>
+                                MODELING IN THE SINGLE 
+                            </h3>
+                            <p> "NA DE NA"</p>
+                            <iframe width="100%" height="250" src="https://www.youtube.com/embed/3fwNh5AVWJY" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                             encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                </div>
+
+                <!-- CARD -->
+
+                <div class="info_card">
+                    <div class="card">
+                        <img src="./assends/img/sexy_maloso.jpg" alt="sexy_maloso_song">
+                    </div>
+
+                    <!-- INFO CARD-->
+                        <div class="info_item">
+                            <span><i class='bx bx-music'></i> May 28, 2022</span>
+                            <h3>
+                                NEW SINGLE 
+                            </h3>
+                            <p>"SEXY MALOSO"</p>
+                            <iframe width="100%" height="250" src="https://www.youtube.com/embed/AmeBTKrKM8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                        </div>
+                    
+                </div>
+
+                <!-- CARD -->
+
+                <div class="info_card">
+                    <div class="card">
+                        <img src="./assends/img/stuck-with.jpg" alt="stuck-with_cover">
+                    </div>
+
+                    <!-- INFO CARD-->
+                    <div class="info_item">
+                        <span><i class='bx bx-music'></i> May 19, 2020</span>
+                        <h3>
+                            SINGLE (COVER) spanish
+                        </h3>
+                        <p> "STUCK-WITH"</p>
+            
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/HWJOxr5jv90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                    </div>
+                </div>
+
+                <!-- CARD -->
+                <div class="info_card">
+                    <div class="card">
+                        <img src="./assends/img/creeme.jpg" alt="creeme_chinox_junior">
+                    </div>
+
+                    <!-- INFO CARD -->
+                    <div class="info_item">
+                        <span><i class='bx bx-music'></i> Dic 7, 2018</span>
+                        <h3>
+                            SINGLE (COVER)
+                        </h3>
+                        <p>"CRÉEME"</p>
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/FabzV5JTijQ?start=4" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                         encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                
+
+                    <!-- <div class="card">
+                    <img src="./assends/img/" alt="creeme_chinox_junior">
+                </div> -->
+            </header>
+        </div>
+            </div>
+            </header>
+        </section>
+    </article>
+    <article id="Galery" class="galery">
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Cumque suscipit dolorem, magnam, reiciendis mollitia excepturi quos reprehenderit
@@ -82,7 +176,7 @@
             omnis ab repellat, in consequatur assumenda neque beatae quaerat laudantium adipisci earum
             officiis id a iste. Molestiae, vitae?
         </p>
-    </div>
+    </article>
 
 
     <script src="JavaScript.js"></script>
