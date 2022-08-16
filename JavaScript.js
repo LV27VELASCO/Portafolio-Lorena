@@ -56,7 +56,7 @@ function onClick(e){
     evento.classList.add('active')
     evento.innerHTML=`
     <span><i class='bx bx-music'></i> May 28, 2022</span>
-    <h3>NEW SINGLE </h3>
+    <h3>NEW SONG</h3>
     <p>"SEXY MALOSO"</p>
     <iframe width="100%" height="250" src="https://www.youtube.com/embed/AmeBTKrKM8U" 
     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
@@ -67,7 +67,7 @@ function onClick(e){
     evento.classList.add('active')
     evento.innerHTML=`
     <span><i class='bx bx-music'></i> May 19, 2020</span>
-    <h3>SINGLE (COVER) spanish</h3>
+    <h3>SONG (COVER) Spanish</h3>
     <p> "STUCK-WITH"</p>
     <iframe width="100%" height="250" src="https://www.youtube.com/embed/HWJOxr5jv90" 
     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
@@ -78,7 +78,7 @@ function onClick(e){
     evento.classList.add('active')
     evento.innerHTML=`
     <span><i class='bx bx-music'></i> Dic 7, 2018</span>
-    <h3>SINGLE (COVER)</h3>
+    <h3>SONG (COVER)</h3>
     <p>"CRÉEME"</p>
     <iframe width="100%" height="250" src="https://www.youtube.com/embed/FabzV5JTijQ?start=4" 
     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
