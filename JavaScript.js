@@ -44,7 +44,7 @@ function onClick(e){
     evento.classList.add('active')
     evento.innerHTML=`
         <span><i class='bx bx-video-recording'></i>Jul 26, 2022</span>
-        <h3>MODELING IN THE SINGLE </h3>
+        <h3>MODEL IN SONG</h3>
         <p> "NA DE NA"</p>
         <iframe width="100%" height="250" src="https://www.youtube.com/embed/3fwNh5AVWJY" 
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
