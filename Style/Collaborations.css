@@ -117,16 +117,7 @@
 
 /* CARTAS MODELAJE  */
 
-@media screen and (max-width:768px) {
-
-    .collaborations{
-        width: 100%;
-    }
-
-}
-
 @media screen and (max-width:944px) {
-
     .card{
         
         border-radius: 15px ;
@@ -135,10 +126,30 @@
     .card.two{
         border-radius: 15px;
     }
+}
+
+@media screen and (max-width:768px) {
+
+    .collaborations{
+        width: 100%;
+    }
 
 }
 
 @media screen and (max-width:435px){
+
+    .title-section{
+        font-size: 2.2rem;
+    }
+
+    .card{
+        width: 88%;
+    }
+
+    .info_item.active{
+        width: 88%;
+    }
+
     .info_card{
         width: 300px;
     }
