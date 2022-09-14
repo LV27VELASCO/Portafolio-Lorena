@@ -1,19 +1,55 @@
 .galery{
     width: 100%;
-    background:linear-gradient(rgba(0, 0, 0, 0.827), rgba(0, 0, 0, 0.827)),
-     url('../assends/img/circle.jpg');
-     height: 100vh;
-     width: 100%;
+    background-image:url('http://2.bp.blogspot.com/_xNY9-LKFq6g/TAy5zjzhYDI/AAAAAAAAAf0/1TYEM2gLFsA/s1600/cortinas-de-color.jpg');
      background-size: cover;
-     background-position: center;
+     background-attachment: fixed;
+     background-position:center;
      padding: 10px;
      display: flex;
      justify-content: center;
-     align-items: center;
+     align-items: center; 
+     position: relative;
 }
 
-.info p{
-    width: 50%;
-    text-align: center;
+.galery::before{
+    content: '';
+    width: 100%;
+    height:100%;
+    position: absolute;
+    background:linear-gradient(rgba(0, 0, 0, 0.259),rgba(0, 0, 0, 0.259));
+    z-index: 0;
 }
 
+.contain_galery{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     gap: 2rem;
+}
+
+.carousel-dark{
+    width: 40%;
+}
+
+
+.carousel-item,.carousel-item img{
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:800px) {
+    .carousel-dark{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width:435px){
+    .carousel-dark{
+        width: 90%;
+    }
+}

@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.713),rgba(0, 0, 0, 0.713)),url('../assends/img/Galery/lorena_verano.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.717),rgba(0, 0, 0, 0.717)),url('../assends/img/Photo_Animation/lorena_verano.jpg');
+    filter: saturate(115%) brightness(120%);
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
@@ -13,19 +14,19 @@
 
 @keyframes fondo {
     0%{
-    background: linear-gradient(black,black),url('../assends/img/Galery/lorena_verano.jpg');
+    background: linear-gradient(black,black),url('../assends/img/Photo_Animation/lorena_verano.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     }
     80%{
-    background: linear-gradient(black,black),url('../assends/img/Galery/lorena_verano.jpg');
+    background: linear-gradient(black,black),url('../assends/img/Photo_Animation/lorena_verano.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     }
     100%{
-    background: linear-gradient(rgba(0, 0, 0, 0.714),rgba(0, 0, 0, 0.714)),url('../assends/img/Galery/lorena_verano.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.714),rgba(0, 0, 0, 0.714)),url('../assends/img/Photo_Animation/lorena_verano.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -143,7 +144,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+}
 
 .title{
     text-align: center;
