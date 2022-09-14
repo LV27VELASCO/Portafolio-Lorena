@@ -41,6 +41,15 @@
 }
 
 
+.copy_footer{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+}
+
 @media screen and (max-width:800px) {
     .carousel-dark{
         width: 80%;
