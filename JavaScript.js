@@ -30,17 +30,17 @@ $(d).ready(function(){
 
 
 function onClick(e){
-    
+       
+    const item=e.path[2]
 
-    // $cards.forEach(card => {
-    //     card.classList.remove('active')
-    // })
-   
+    console.log(item.className)
 
+    console.log(item)
    const evento= e.path[2].children[1]
    
 
    if(evento.className==='info_item nadena'){
+    item.classList.add('active')
     evento.classList.add('active')
     evento.innerHTML=`
         <span><i class='bx bx-video-recording'></i>Jul 26, 2022</span>
@@ -53,6 +53,7 @@ function onClick(e){
 
 
    else if(evento.className==='info_item sexy'){
+    item.classList.add('active')
     evento.classList.add('active')
     evento.innerHTML=`
     <span><i class='bx bx-music'></i> May 28, 2022</span>
@@ -64,6 +65,7 @@ function onClick(e){
     `
 }
    else if(evento.className==='info_item stuck'){
+    item.classList.add('active')
     evento.classList.add('active')
     evento.innerHTML=`
     <span><i class='bx bx-music'></i> May 19, 2020</span>
@@ -75,6 +77,7 @@ function onClick(e){
     `
 }
    else if(evento.className==='info_item creeme'){
+    item.classList.add('active')
     evento.classList.add('active')
     evento.innerHTML=`
     <span><i class='bx bx-music'></i> Dic 7, 2018</span>
@@ -86,6 +89,7 @@ function onClick(e){
     `
 }
    else{
+    item.classList.remove('active')
     evento.classList.remove('active') 
     evento.innerHTML=''
    }
